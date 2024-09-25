@@ -1,15 +1,16 @@
-## Kata: Zeichenlänge eines Strings  
+## Kata: Begrüßung   
 
-1. Erstelle eine `string_length.py` Datei im Root-Verzeichnis Deines Repositories. 10 Punkte  
+1. Erstelle eine `greet.py` Datei im Root-Verzeichnis Deines Repositories. 10 Punkte  
 
 
 
-2. Schreibe eine Funktion `string_length`, die einen String als Argument akzeptiert und die Anzahl der Zeichen zurückgibt. 10 Punkte  
+
+2. Schreibe eine Funktion `greet`, die einen Namen als Argument akzeptiert und eine personalisierte Begrüßung in der Form von "Hallo, [Name]!" zurückgibt. 10 Punkte  
 
 
 
 ### Beispiel
 ```python
-string_length("hello")  # Sollte 5 zurückgeben  
-string_length("")  # Sollte 0 zurückgeben  
+greet("Max")  # Sollte "Hallo, Max!" zurückgeben  
+greet("Anna")  # Sollte "Hallo, Anna!" zurückgeben  
 
