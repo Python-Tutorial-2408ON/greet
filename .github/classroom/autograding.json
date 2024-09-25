@@ -3,7 +3,7 @@
     {
       "name": "Test if File exists",
       "setup": "",
-      "run": "python -m unittest test_string_length.Test.test_file_exists",
+      "run": "python -m unittest test_greet.Test.test_file_exists",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -11,9 +11,9 @@
       "points": 10
     },
     {
-      "name": "Test string_length Function",
+      "name": "Test greet Function",
       "setup": "",
-      "run": "python -m unittest test_string_length.Test.test_string_length",
+      "run": "python -m unittest test_greet.Test.test_greet",
       "input": "",
       "output": "",
       "comparison": "included",
